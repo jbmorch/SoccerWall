@@ -25,8 +25,8 @@ An automated soccer training wall that simulates a defensive player wall. A larg
 
 |File|Description|
 |-|-|
-|`SoccerWall.ino`|Main Arduino sketch for the ESP32. Handles Modbus RTU communication, safety parameter setup, and servo commanding.|
-|`SoccerWall.h`|Header file — pin definitions, constants, register addresses, and shared data structures.|
+|`soccer_wall.ino`|Main Arduino sketch for the ESP32. Handles Modbus RTU communication, safety parameter setup, and servo commanding.|
+|`web_ui.h`|Header file — web-based user interface.|
 |`SystemDescription.md`|Full system architecture narrative. Read this to understand how all the pieces fit together.|
 |`WiringDiagram.\*`|Wiring diagram showing all electrical connections between components.|
 |`README.md`|This file.|
