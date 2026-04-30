@@ -4,6 +4,15 @@ An automated soccer training wall that simulates a defensive player wall. A larg
 
 \---
 
+## Quick Notes about the project
+- The ESP32 can be powered by a USB cable or a buck converter (which changes voltage) from the 24v battery to 5v
+- The RS485 adapter should be powered by the VIN pin on the ESP32 which provides 5v
+- The ESP32 and RS485 adapter (and the servor drive cable) should have their grounds all ties together
+- The system, without the 24v battery and inverter, can be powered by a small wall transformer instead
+  which converts US/MEX 110v to 220v required by the system
+- The ESP32 has a built-in antenna for Wifi. The ESP32 should not be completely enclosed in a metal box of the signal
+  will not get through to the phone
+
 ## Project Status
 
 **As of April 2026 — Core motion is working end-to-end.**
